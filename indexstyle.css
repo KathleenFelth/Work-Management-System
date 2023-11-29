@@ -1,0 +1,58 @@
+body{
+  background: url(loginpic.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.sidenav {
+  height: 100%;
+  width: 380px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+
+  padding:55px;
+
+	font-family: calibri;
+ 
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+ 
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+
+
+.sidenav:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #070101;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}

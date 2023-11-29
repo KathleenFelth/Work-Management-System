@@ -1,0 +1,62 @@
+body{
+  background: url(mainlogin.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+  
+  /*contents within the div container styled here*/
+  .header {
+     
+    padding: 20px;
+    width: 97%;
+  
+    text-align: left;
+    background: #2834e0;
+    color: rgb(213, 203, 203);
+    font-size: 20px;
+  
+  }
+  .content {
+    padding:55px;
+      margin:100px auto;
+      font-family: calibri;
+    width: 60rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+  }
+  
+  
+  .content:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+  }
+  button {
+    background-color: #0a19ee;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* hovering for the login button */
+  button:hover {
+    opacity: 0.8;
+  }

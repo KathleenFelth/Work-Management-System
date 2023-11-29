@@ -1,2 +1,2 @@
 # Work-Management-System
-A software I developed, designed to help keep track of the tasks of employees. Allows them to upload files and download applications as well as generate employee work reports.
+A software I developed, designed to help keep track of the tasks of employees. Allows an employee to upload files and download applications as well as generate employee work reports. The admin is allowed to add new employees and assign new tasks to them. They can also check an employees work progress and compared it to their own or another employee's work progress. This uses the TCPDF library to generate downloadable pdf reports. The files folder is empty, this is where the files you upload will be stored. 
